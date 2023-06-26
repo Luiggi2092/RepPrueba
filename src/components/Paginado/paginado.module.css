@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 85px;
+    gap:15px;
+    list-style: none;
+    
+    
+button{
+    background-color: #242424;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+   
+
+    
+    
+}
+
+
+
+
+.container li {
+    
+        padding: 10px;
+        /*border: 1px solid white;*/
+        color: black;
+        cursor: pointer;
+        
+}
+
+.container li.active {
+    background-color: #176B87;
+    color: black;
+    
+}

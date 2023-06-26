@@ -1,0 +1,40 @@
+body{
+    background-image:rgb(236, 225, 225) ;
+}
+
+* {
+  font-family: sans-serif;
+}
+.momentumSiema{
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 20vh;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  color: white;
+  font-size: 5em;
+  border-radius: 5px;
+  
+  @media (max-width: 500px){
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+  }
+}
+.b {
+  background: #6c98f9;
+}
+.g {
+  background: #7bb590;
+}
+.text {
+  width: 100%;
+  text-align: center;
+}

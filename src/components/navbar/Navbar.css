@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 107, 135, 0.8);
+    color: white;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: auto;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    margin-left: auto;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a:hover {
+    color: #001C30;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.search input {
+    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos adicionales para el navbar responsive */
+@media screen and (max-width: 768px) {
+    .navbar-container {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        flex: 1 1 100%;
+        justify-content: center;
+        margin-top: 10px;
+        order: 2;
+    }
+
+    .nav-links a {
+        margin: 0 10px;
+    }
+
+    .search {
+        flex: 1 1 100%;
+        justify-content: center;
+        margin-top: 10px;
+        order: 3;
+        margin-right: 0;
+    }
+
+    .social-icons {
+        flex: 1 1 100%;
+        justify-content: center;
+        margin-top: 10px;
+        order: 4;
+        margin-right: 0;
+    }
+}
+
+/* Estilos adicionales para adaptar el navbar a cualquier pantalla */
+@media screen and (max-width: 1200px) {
+    .navbar-container {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .navbar-container {
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        margin: 5px 0;
+    }
+
+    .search {
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .social-icons {
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+}

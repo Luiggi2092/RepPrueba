@@ -1,0 +1,53 @@
+.card {
+    
+    background-color: #DAFFFB;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+}
+
+
+p {
+    text-align: center;
+}
+
+.agregar {
+    background-color: #2B2E4A;
+    color: white;
+    border-radius: 22px;
+    width: 100px;
+    height: 30px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+
+}
+
+.cant {
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.botones {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.cont {
+    margin: 0 10px;
+    
+}
+
+.price{
+    padding-left: 15px;
+    margin-top: 210px;
+    text-align: center !important;
+}
